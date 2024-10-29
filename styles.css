@@ -1,0 +1,146 @@
+body {font-family: "Open Sans";
+    text-align: center;
+    margin: 0px;
+    color: white;}
+
+p {font-size: 40px;
+    margin: 0px}
+
+h1, h2, h3 {font-family: "Shadows Into Light";}
+
+
+
+        /* Nav */
+
+nav {font-size: 32px;
+    display: flex;
+    justify-content: center;}
+
+a {text-decoration: none;
+    color: white;
+    padding: 30px;}
+
+.fleche_bas {height: 50px;
+    fill: white;}
+    
+
+
+        /* Header */
+
+h1 {font-size: 8em;}
+
+h2 {font-size: 4em;}
+
+h3 {font-size: 3em;}
+
+#accueil {background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(10, 0, 0, 0.5)), url(img/backpack-mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;}
+
+.derniere {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105%;}
+
+.last {margin-top: 150px;}
+
+
+
+
+
+
+        /* Section preparation */
+
+#preparation {background-color: #0D4A80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;}
+
+.passeport {fill: #03A696;
+    height: 90px;}
+
+.route {height: 90px;
+    fill: #F2B705;}
+
+.panneau {height: 90px;
+    fill: #C7D93D;}
+
+.pad {padding: 100px;}
+
+.gro {font-size: 60px;}
+
+
+
+
+        /* Section etapes */
+
+img {width: 40%;}
+
+#etapes {background-color: #042645;
+    height: 170vh;}
+
+.australie {display: flex;
+    height: 33.3%;}
+
+.ile {display: flex;
+    flex-direction: row-reverse;
+    height: 33.4%;}
+
+.location {fill: white;
+    height: 1em;
+    padding-right: 20px;}
+
+.contraire {display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    padding: 100px;}
+
+.border {border-top: 2px solid white;
+    padding-top: 25px;}
+
+h3 {margin-bottom: 60px;}
+
+
+
+        /* Footer */
+
+#contact {background-color: #0D4A80;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;}
+
+.numero {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;}
+
+.pe {padding: 0px;
+    font-size: 34px;}
+
+.retour {position: absolute;
+    opacity: 0.5;
+    height: 5em;
+    fill: white;
+    margin-left: 250px;}
+
+.bottom {width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;}
+
+.reseaux:hover {color: #C7D93D;}
+
+.cont_reseau {display: flex;
+    justify-content: space-between;
+    width: 100%;}
+
+.ig {fill: white;
+    height: 40px;}
+
+.peti {margin: 30px 0px;}
